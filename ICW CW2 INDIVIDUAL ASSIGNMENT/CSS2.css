@@ -1,0 +1,115 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background:to bottom,rgb(240,240,240),  white;
+  color: rgb(44, 42, 42);
+  line-height: 1.8;
+  flex-wrap: wrap;
+}
+
+header {
+  background-color: rgb(164, 191, 164);
+  color:  rgb(44, 42, 42);
+  padding: 32px 16px;
+  text-align: center;
+  position: relative;
+}
+
+header div {
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 120px;
+  background-color: rgb(64, 161, 111);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 32px;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 16px 0;
+  font-weight: 500;
+  writing-mode: vertical-rl;
+  transform:rotate(180deg);
+}
+
+section {
+  margin: 32px auto;
+  padding: 32px;
+  max-width: 700px;
+  background-color:white;
+  border-left: 6px solid  rgb(178, 216, 196);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+}
+
+h1, h2 {
+  color:rgb(79, 127, 106);
+  margin-top: 0;
+  font-weight: 600;
+}
+
+p, label {
+  font-size:17px;
+  color:rgb(85, 85, 85);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-top: 8px;
+  border: 1px solid rgb(178, 216, 196);
+  border-radius: 6px;
+  font-size:16px;
+  background-color:rgb(237, 235, 235);
+}
+
+button {
+  margin-top:24px;
+  padding: 12.8px 22px;
+  background-color:rgb(178, 216, 196);
+  color:rgb(56, 56, 56);
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button {
+  background-color:rgb(79, 127, 106);
+  color: white;
+}
+
+footer {
+  background-color:rgb(178, 216, 196);
+  color:rgb(100, 193, 152);
+  text-align: center;
+  padding:24px;
+  font: size 15px;;
+  opacity: 0.95;
+}
+@media(max-width:800px){
+  body{
+    background-color:rgb(217, 244, 217);
+    color:rgb(67, 67, 67)
+  }
+}
+
